@@ -1,0 +1,17 @@
+h1 {
+    color: lightseagreen;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400; /* you can inspect a page and view the font properties */
+    font-family:  helvetica, arial, sans-serif;
+}
+
+p strong { /* this shows strong anywhere in the doc but only if it's a child of the p */
+    font-size: 1.5rem; /* em is relative to the parent font-size - use rem to make it relative to the base browser font size, generally 16px */
+}
+
+html {
+    font-size: 30px; /* this changes the base font-size of browser */
+}
